@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
 int rev=0,t;
 char a;
@@ -22,4 +22,5 @@ else
 printf("it is not a palindrome");
 }
 return 0;
+  getch();
 }
